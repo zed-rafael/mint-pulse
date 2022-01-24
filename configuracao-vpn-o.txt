@@ -38,3 +38,9 @@ sudo ssh-keygen -t rsa -C zeuxis.silva@grupomateus.com
 
 git config --global user.email "zeuxis.silva@grupomateus.com.br"
 git config --globla user.name "Zeuxis Rafael"
+
+
+########################### QT #############################
+sudo /home/zed/Qt5.9.6/5.9.6/gcc_64/bin/qmake odbc.pro "LIBS+=-lodbc"
+make 
+make install
