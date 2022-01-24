@@ -35,3 +35,6 @@ sudo systemctl status wg-quick@wg0.service
 #CHAVE SSH para o https://gitlab.mateus
 
 sudo ssh-keygen -t rsa -C zeuxis.silva@grupomateus.com
+
+git config --global user.email "zeuxis.silva@grupomateus.com.br"
+git config --globla user.name "Zeuxis Rafael"
